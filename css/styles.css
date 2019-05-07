@@ -1,0 +1,181 @@
+/*HOME*/
+body {
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    text-align: justify;
+}
+
+div.home-column-left header {
+    overflow: hidden;
+    height: 25vh;
+    padding-top: 5%;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+nav.navbar-home ul li {
+    position: relative;
+    line-height: 4vh;
+    font-weight: bold;
+    color: rgba(88, 88, 88, 0.5)
+}
+
+nav.navbar-home ul{
+    margin: 0;
+    padding: 0;
+}
+
+div.home-column-left{
+    width: 25%;
+    float: left;
+    height: 100vh;
+}
+
+div.home-column-right{
+    width: 75%;
+    float: left;
+    height: 100vh;
+    background-image: url(../img/emilia-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.home-row-middle {
+    height: 50vh;
+    padding-left: 10%;
+    box-sizing: border-box;
+    padding-top: 30%;
+}
+
+div.home-row-bottom {
+    height: 25vh;
+}
+
+div.home-row-bottom h1{
+    width: 99.5%;
+    position: absolute;
+    font-size: 5em;
+    background-color: rgba(999, 999, 999, 0.5);
+}
+
+span.home-social-networks{
+    display: inline-block;
+    margin-top: 2.5%;
+    font-size: medium;
+}
+
+span.home-emilia-cole{
+    font-family: 'Work Sans', sans-serif;
+    display: inline-block;
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: rgba(00, 00, 00, 0.7);
+    line-height: 4.7vh;
+    box-sizing: border-box;
+}
+
+/*MUSIC*/
+
+header.music-header {
+    height: 20vh;
+    background-image: url(../img/emilia-music-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.music-container {
+    height: 80vh;
+}
+
+nav.navbar-music {
+    width: 99%;
+    background-color: rgba(999, 999, 999, 0.4);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    height: 7vh;
+    overflow: hidden;
+}
+
+nav.navbar-music ul li{
+    display: inline-block;
+}
+
+nav.navbar-music ul {
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    box-sizing: border-box;
+    float: right;
+    position: relative;
+    top: 4%;
+}
+
+span.music-social-networks {
+    float: right;
+    margin-top: 1%;
+    margin-right: 0.6%;
+}
+
+div.music-container{
+    padding-left: 0.5rem;
+}
+
+div.music-container h1 {
+    font-size: 4em;
+}
+
+div.music-container h2 {
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5rem;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+span#music-links-title {
+    font-weight: bold;
+}
+
+
+div.music-container ul.album-list li{
+    font-weight: bold;
+    color: rgba(82, 82, 82, 0.5);
+}
+
+ol.music-track-list {
+    line-height: 2.5em;
+}
+
+a.top-anchor {
+    font-weight: bold;
+    color: rgba(88, 88, 88, 0.5);
+    margin-left: 0.2rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/*ABOUT*/
